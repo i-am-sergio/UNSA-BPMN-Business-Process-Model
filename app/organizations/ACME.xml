@@ -240,7 +240,7 @@
       <lastName>Bleasdale</lastName>
       <title>Mrs</title>
       <jobTitle>Product marketing manager</jobTitle>
-      <manager>favio.riviera</manager>
+      <manager>giovanna.almeida</manager>
       <personalData/>
       <professionalData>
         <email>isabel.bleasdale@acme.com</email>
@@ -553,6 +553,9 @@
       <displayName>Member</displayName>
       <description></description>
     </role>
+    <role name="Oficina de Gesti&#xf3;n de Planeamiento y Presupuesto">
+      <displayName>Oficina de Gesti&#xf3;n de Planeamiento y Presupuesto</displayName>
+    </role>
   </roles>
   <groups>
     <group name="acme">
@@ -667,7 +670,7 @@
     </membership>
     <membership>
       <userName>isabel.bleasdale</userName>
-      <roleName>member</roleName>
+      <roleName>Oficina de Gesti&#xf3;n de Planeamiento y Presupuesto</roleName>
       <groupName>marketing</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
