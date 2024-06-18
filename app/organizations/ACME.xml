@@ -553,8 +553,17 @@
       <displayName>Member</displayName>
       <description></description>
     </role>
-    <role name="Oficina de Gesti&#xf3;n de Planeamiento y Presupuesto">
-      <displayName>Oficina de Gesti&#xf3;n de Planeamiento y Presupuesto</displayName>
+    <role name="Director de la Oficina de Gesti&#xf3;n de Planeamiento y Presupuesto">
+      <displayName>Director de la Oficina de Gesti&#xf3;n de Planeamiento y Presupuesto</displayName>
+    </role>
+    <role name="Coordinador de Planeamiento y Presupuesto">
+      <displayName>Coordinador de Planeamiento y Presupuesto</displayName>
+    </role>
+    <role name="Jefe de Administraci&#xf3;n y Finanzas">
+      <displayName>Jefe de Administraci&#xf3;n y Finanzas</displayName>
+    </role>
+    <role name="Analista de Presupuesto">
+      <displayName>Analista de Presupuesto</displayName>
     </role>
   </roles>
   <groups>
@@ -622,7 +631,7 @@
     </membership>
     <membership>
       <userName>april.sanchez</userName>
-      <roleName>member</roleName>
+      <roleName>Coordinador de Planeamiento y Presupuesto</roleName>
       <groupName>hr</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
@@ -670,13 +679,13 @@
     </membership>
     <membership>
       <userName>isabel.bleasdale</userName>
-      <roleName>Oficina de Gesti&#xf3;n de Planeamiento y Presupuesto</roleName>
+      <roleName>member</roleName>
       <groupName>marketing</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>favio.riviera</userName>
-      <roleName>member</roleName>
+      <roleName>Analista de Presupuesto</roleName>
       <groupName>marketing</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
@@ -712,7 +721,7 @@
     </membership>
     <membership>
       <userName>daniela.angelo</userName>
-      <roleName>member</roleName>
+      <roleName>Jefe de Administraci&#xf3;n y Finanzas</roleName>
       <groupName>europe</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
@@ -736,7 +745,7 @@
     </membership>
     <membership>
       <userName>anthony.nichols</userName>
-      <roleName>member</roleName>
+      <roleName>Director de la Oficina de Gesti&#xf3;n de Planeamiento y Presupuesto</roleName>
       <groupName>north_america</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
