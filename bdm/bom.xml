@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.dexo.model.DocumentoDeAdmision">
+            <fields>
+                <field type="LONG" length="255" name="codigo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="reglamentoAdmision" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="prospecto" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="cronogramaActividades" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="estadoAprobacionDocumento" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dexo.model.PoliticaAdmision">
+            <fields>
+                <field type="LONG" length="255" name="id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="politicaActual" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaUltimaActualizacion" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="estadoAprobacion" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dexo.model.VacantePrograma">
+            <fields>
+                <field type="LONG" length="255" name="id" nullable="false" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fecha" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="programaAcademico" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="numeroVacantes" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
