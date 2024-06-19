@@ -1,10 +1,10 @@
 {
-  "id" : "RecibeDocs",
-  "name" : "RecibeDocs",
+  "id" : "validarRSU",
+  "name" : "validarRSU",
   "type" : "form",
-  "uuid" : "f38a0727-9f57-46eb-9fcc-fe87dad67531",
+  "uuid" : "3c0793c0-9073-4e8a-8ef0-b0a536a0a768",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1718772954569,
+  "lastUpdate" : 1718775859612,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "af7da04b-f6d3-4296-9f34-941941027240",
+        "reference" : "d2211610-b654-4189-aa93-dea0a528d7c1",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +53,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "616e791e-9be0-454d-956c-f44422a69488",
+              "reference" : "591727ce-66ab-419b-afd3-ee5b8f3877b6",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -101,7 +101,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "d25f33de-1625-4d78-9f32-3252d8022851",
+              "reference" : "b44ae0b5-8d77-4fcc-9ca0-bd619b9c2fb0",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -117,7 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "bae3055e-976a-4847-9e9e-3981a1cf1070",
+        "reference" : "24864dac-f583-4815-be32-ae39e3da78ff",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -126,7 +126,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "31a5818f-3ffe-43cf-92bd-1cf20ffe2eed",
+          "reference" : "56139739-06db-43e4-a573-44a20bbd0c7f",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -165,7 +165,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "99bc76b5-f21c-4c11-864f-80be2f386104",
+                "reference" : "018bce6a-ef8e-4f67-8380-f21ad8fe781c",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -197,7 +197,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "ba75cd54-2318-42ba-92c6-710b9566d986",
+                "reference" : "ef1e5d65-7c12-4e63-b409-818296bbc4d4",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -211,83 +211,189 @@
                         "lg" : 12
                       },
                       "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
                         "labelHidden" : {
                           "type" : "constant",
                           "value" : false
                         },
                         "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
+                          "type" : "expression",
+                          "value" : "!cargaDocs.diagnosticoRSU"
                         },
                         "cssClasses" : {
                           "type" : "constant",
                           "value" : ""
                         },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Diagnóstico Anual de Gestión de la RSU"
+                          "value" : "Diagnostico R S U"
                         },
-                        "placeholder" : {
-                          "type" : "constant"
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{cargaDocs.diagnosticoRSU}}"
                         },
-                        "type" : {
+                        "alignment" : {
                           "type" : "constant",
-                          "value" : "text"
+                          "value" : "left"
                         },
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "cargaDocs.diagnosticoRSU"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "debounce" : {
-                          "type" : "constant",
-                          "value" : 0
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
                         }
                       },
-                      "reference" : "9d3c2103-c32f-48e3-a583-6e4bf904230a",
+                      "reference" : "a1bd75ca-7e17-4f5b-a2b8-e027b3c9d395",
                       "hasValidationError" : false,
-                      "id" : "pbInput",
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!cargaDocs.reporteAnualRSU"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Reporte Anual R S U"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{cargaDocs.reporteAnualRSU}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "0e29eb82-e673-4fee-82b6-7939c8ee76b1",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!cargaDocs.pei"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Pei"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{cargaDocs.pei}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "e6848a00-a799-4c91-bca2-e02b4c803d5d",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "expression",
+                          "value" : "!cargaDocs.planRSU"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Plan R S U"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{cargaDocs.planRSU}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        }
+                      },
+                      "reference" : "5207c6f7-0d8c-4811-be1a-0c2dc2d23dc2",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
                       "description" : ""
                     }
                   ],
@@ -309,32 +415,17 @@
                           "type" : "constant",
                           "value" : false
                         },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
                         "cssClasses" : {
                           "type" : "constant",
                           "value" : ""
                         },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
+                        "disabled" : {
                           "type" : "constant",
                           "value" : false
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Reporte de Sostenibilidad Anual (informe Anual RSU)"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
+                          "value" : "Aprobado"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -342,132 +433,12 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "cargaDocs.reporteAnualRSU"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "debounce" : {
-                          "type" : "constant",
-                          "value" : 0
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
+                          "value" : "cargaDocs.aprobado"
                         }
                       },
-                      "reference" : "2752fcce-db85-4b3f-a7b0-0f3c39ae860e",
+                      "reference" : "d9d0248d-950c-4b94-a1d2-748c9734dd4d",
                       "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Plan Estratégico Institucional (PEI)"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "cargaDocs.pei"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "debounce" : {
-                          "type" : "constant",
-                          "value" : 0
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
-                        }
-                      },
-                      "reference" : "80339aeb-fa08-4cfd-aa5f-03bafabcf1bc",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
+                      "id" : "pbCheckbox",
                       "description" : ""
                     }
                   ]
@@ -547,30 +518,9 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-                  },
-                  "assign" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "url" : {
-                    "type" : "interpolation"
-                  },
-                  "responseStatusCode" : {
-                    "type" : "variable"
-                  },
-                  "dataFromSuccess" : {
-                    "type" : "variable"
-                  },
-                  "closeOnSuccess" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "modalId" : {
-                    "type" : "constant",
-                    "value" : ""
                   }
                 },
-                "reference" : "5eb52723-1be7-468d-bd14-68b3bf8a7614",
+                "reference" : "7331683c-194b-4d6e-a3ed-fc4658aeff60",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -620,17 +570,9 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-                  },
-                  "labelPosition" : {
-                    "type" : "constant",
-                    "value" : "top"
-                  },
-                  "labelWidth" : {
-                    "type" : "constant",
-                    "value" : 4
                   }
                 },
-                "reference" : "2d354f3e-0786-42be-9052-f5a1939e4794",
+                "reference" : "76188c05-f3e1-4ea9-bf1f-5d4cffa49448",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -677,10 +619,8 @@
         "if( $data.cargaDocs ){",
         "\treturn {",
         "\t\t//map cargaDocs variable to expected task contract input",
-        "\t\tcargaDocsInput: {",
-        "\t\t\tdiagnosticoRSU: $data.cargaDocs.diagnosticoRSU !== undefined ? $data.cargaDocs.diagnosticoRSU : null,",
-        "\t\t\treporteAnualRSU: $data.cargaDocs.reporteAnualRSU !== undefined ? $data.cargaDocs.reporteAnualRSU : null,",
-        "\t\t\tpei: $data.cargaDocs.pei !== undefined ? $data.cargaDocs.pei : null",
+        "\t\tvalidacionRSU: {",
+        "\t\t\taprobado: $data.cargaDocs.aprobado !== undefined ? $data.cargaDocs.aprobado : null",
         "\t\t}",
         "\t}",
         "}"
@@ -704,14 +644,14 @@
   },
   "assets" : [
     {
-      "id" : "1939267e-e718-4ee7-a335-645a169dfbe2",
+      "id" : "a5579a5a-cbb2-4be5-887d-e8fe44841c61",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "59d43143-c24f-45e2-a5db-203bb47fddbb",
+      "id" : "d9d7152a-2402-4bcb-9158-248ee5d73466",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,

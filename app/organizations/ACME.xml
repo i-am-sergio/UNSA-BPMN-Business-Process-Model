@@ -27,7 +27,7 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
-    <user userName="april.sanchez">
+    <user userName="secreApril">
       <firstName>April</firstName>
       <lastName>Sanchez</lastName>
       <title>Mrs</title>
@@ -417,7 +417,7 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
-    <user userName="daniela.angelo">
+    <user userName="asistDani">
       <firstName>Daniela</firstName>
       <lastName>Angelo</lastName>
       <title>Mrs</title>
@@ -443,7 +443,7 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
-    <user userName="anthony.nichols">
+    <user userName="jefeAntho">
       <firstName>Anthony</firstName>
       <lastName>Nichols</lastName>
       <title>Mr</title>
@@ -553,6 +553,15 @@
       <displayName>Member</displayName>
       <description></description>
     </role>
+    <role name="Jefe">
+      <displayName>Jefe</displayName>
+    </role>
+    <role name="Secretaria">
+      <displayName>Secretaria</displayName>
+    </role>
+    <role name="Asistente">
+      <displayName>Asistente</displayName>
+    </role>
   </roles>
   <groups>
     <group name="acme">
@@ -618,8 +627,8 @@
       <groupName>acme</groupName>
     </membership>
     <membership>
-      <userName>april.sanchez</userName>
-      <roleName>member</roleName>
+      <userName>secreApril</userName>
+      <roleName>Secretaria</roleName>
       <groupName>hr</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
@@ -708,8 +717,8 @@
       <groupParentPath>/acme/production</groupParentPath>
     </membership>
     <membership>
-      <userName>daniela.angelo</userName>
-      <roleName>member</roleName>
+      <userName>asistDani</userName>
+      <roleName>Asistente</roleName>
       <groupName>europe</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
@@ -732,8 +741,8 @@
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
     <membership>
-      <userName>anthony.nichols</userName>
-      <roleName>member</roleName>
+      <userName>jefeAntho</userName>
+      <roleName>Jefe</roleName>
       <groupName>north_america</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
