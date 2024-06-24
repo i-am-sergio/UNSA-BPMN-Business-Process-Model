@@ -1,10 +1,10 @@
 {
-  "id" : "RecibeDocs",
-  "name" : "RecibeDocs",
+  "id" : "RecibirInformacionEtica",
+  "name" : "RecibirInformacionEtica",
   "type" : "form",
-  "uuid" : "f38a0727-9f57-46eb-9fcc-fe87dad67531",
+  "uuid" : "b51e7600-3397-46cf-b685-20d9d3ba3525",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1718772954569,
+  "lastUpdate" : 1718922285101,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "af7da04b-f6d3-4296-9f34-941941027240",
+        "reference" : "c351c931-d122-4d8b-a0f0-6bbf7f41530b",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +53,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "616e791e-9be0-454d-956c-f44422a69488",
+              "reference" : "b60626be-3d6c-491f-84d9-2fc86978ed4f",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -101,7 +101,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "d25f33de-1625-4d78-9f32-3252d8022851",
+              "reference" : "f6fb982d-d117-4364-b7d3-3bb39b745b97",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -117,7 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "bae3055e-976a-4847-9e9e-3981a1cf1070",
+        "reference" : "d783f2cf-387c-4175-8d6a-b9912b46232c",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -126,7 +126,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "31a5818f-3ffe-43cf-92bd-1cf20ffe2eed",
+          "reference" : "c3726af8-cdc4-4fbb-9aae-960617592134",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -154,7 +154,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Carga Docs"
+                    "value" : "Recibir_informacion"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -165,7 +165,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "99bc76b5-f21c-4c11-864f-80be2f386104",
+                "reference" : "04e9dd4a-23e1-4390-88b1-18fddd94dea3",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -197,7 +197,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "ba75cd54-2318-42ba-92c6-710b9566d986",
+                "reference" : "071821c3-7212-4054-b5e8-ffc2aab56cd0",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -252,7 +252,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "cargaDocs.diagnosticoRSU"
+                          "value" : "recibir_informacion.diagnostico"
                         },
                         "required" : {
                           "type" : "constant",
@@ -285,7 +285,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "9d3c2103-c32f-48e3-a583-6e4bf904230a",
+                      "reference" : "e2a7ba41-e8f7-4224-8acd-f5b8422aca58",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -342,7 +342,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "cargaDocs.reporteAnualRSU"
+                          "value" : "recibir_informacion.informe"
                         },
                         "required" : {
                           "type" : "constant",
@@ -375,7 +375,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "2752fcce-db85-4b3f-a7b0-0f3c39ae860e",
+                      "reference" : "7add5e02-7a37-4b70-b42e-97511e75e8b1",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -432,7 +432,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "cargaDocs.pei"
+                          "value" : "recibir_informacion.pei"
                         },
                         "required" : {
                           "type" : "constant",
@@ -465,7 +465,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "80339aeb-fa08-4cfd-aa5f-03bafabcf1bc",
+                      "reference" : "695728a3-2965-4bb1-98db-3edf6725965c",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -547,30 +547,9 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-                  },
-                  "assign" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "url" : {
-                    "type" : "interpolation"
-                  },
-                  "responseStatusCode" : {
-                    "type" : "variable"
-                  },
-                  "dataFromSuccess" : {
-                    "type" : "variable"
-                  },
-                  "closeOnSuccess" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "modalId" : {
-                    "type" : "constant",
-                    "value" : ""
                   }
                 },
-                "reference" : "5eb52723-1be7-468d-bd14-68b3bf8a7614",
+                "reference" : "0525deee-7898-4d75-8965-d6a196bc371c",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -620,17 +599,9 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-                  },
-                  "labelPosition" : {
-                    "type" : "constant",
-                    "value" : "top"
-                  },
-                  "labelWidth" : {
-                    "type" : "constant",
-                    "value" : 4
                   }
                 },
-                "reference" : "2d354f3e-0786-42be-9052-f5a1939e4794",
+                "reference" : "c8efd85a-c402-4ecb-a929-5e8660833b6e",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -642,13 +613,6 @@
     ]
   ],
   "variables" : {
-    "cargaDocs" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.cargaDocs_ref.link}}"
-      ],
-      "exposed" : false
-    },
     "task" : {
       "type" : "url",
       "value" : [
@@ -674,13 +638,13 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.cargaDocs ){",
+        "if( $data.recibir_informacion ){",
         "\treturn {",
-        "\t\t//map cargaDocs variable to expected task contract input",
-        "\t\tcargaDocsInput: {",
-        "\t\t\tdiagnosticoRSU: $data.cargaDocs.diagnosticoRSU !== undefined ? $data.cargaDocs.diagnosticoRSU : null,",
-        "\t\t\treporteAnualRSU: $data.cargaDocs.reporteAnualRSU !== undefined ? $data.cargaDocs.reporteAnualRSU : null,",
-        "\t\t\tpei: $data.cargaDocs.pei !== undefined ? $data.cargaDocs.pei : null",
+        "\t\t//map recibir_informacion variable to expected task contract input",
+        "\t\trecibir_informacionInput: {",
+        "\t\t\tdiagnostico: $data.recibir_informacion.diagnostico !== undefined ? $data.recibir_informacion.diagnostico : null,",
+        "\t\t\tinforme: $data.recibir_informacion.informe !== undefined ? $data.recibir_informacion.informe : null,",
+        "\t\t\tpei: $data.recibir_informacion.pei !== undefined ? $data.recibir_informacion.pei : null",
         "\t\t}",
         "\t}",
         "}"
@@ -694,6 +658,13 @@
       ],
       "exposed" : false
     },
+    "recibir_informacion" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.recibir_informacion_ref.link}}"
+      ],
+      "exposed" : false
+    },
     "taskId" : {
       "type" : "urlparameter",
       "value" : [
@@ -704,16 +675,16 @@
   },
   "assets" : [
     {
-      "id" : "1939267e-e718-4ee7-a335-645a169dfbe2",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "92b29b16-bdc8-4702-98e8-50c3133d0c0f",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "59d43143-c24f-45e2-a5db-203bb47fddbb",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "b9b9d967-6449-4fa9-bce0-436fe9f119f1",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     }

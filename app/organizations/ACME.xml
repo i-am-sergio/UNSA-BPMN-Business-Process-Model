@@ -547,6 +547,30 @@
       <enabled>true</enabled>
       <password encrypted="false">bpm</password>
     </user>
+    <user userName="boss3">
+      <firstName>Lamine</firstName>
+      <lastName>Yamal</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="cord3">
+      <firstName>Gabriela</firstName>
+      <lastName>Torres</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="asist3">
+      <firstName>Carlos</firstName>
+      <lastName>Mendoza</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="member">
@@ -571,14 +595,14 @@
     <role name="Director del Vicerrectorado de Investigacion">
       <displayName>Director del Vicerrectorado de Investigacion</displayName>
     </role>
-    <role name="Jefe">
-      <displayName>Jefe</displayName>
+    <role name="Director de Gesti&#xf3;n Institucional">
+      <displayName>Director de Gesti&#xf3;n Institucional</displayName>
     </role>
-    <role name="Secretaria">
-      <displayName>Secretaria</displayName>
+    <role name="Coordinadora Administrativa">
+      <displayName>Coordinadora Administrativa</displayName>
     </role>
-    <role name="Asistente">
-      <displayName>Asistente</displayName>
+    <role name="Asistente de Gesti&#xf3;n Institucional">
+      <displayName>Asistente de Gesti&#xf3;n Institucional</displayName>
     </role>
   </roles>
   <groups>
@@ -768,6 +792,36 @@
       <userName>william.jobs</userName>
       <roleName>member</roleName>
       <groupName>facultad</groupName>
+    </membership>
+    <membership>
+      <userName>jefeAntho</userName>
+      <roleName>Analista de Informaci&#xf3;n</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>secreApril</userName>
+      <roleName>Responsable de Planificaci&#xf3;n de I+D+I+E</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>asistDani</userName>
+      <roleName>Director del Vicerrectorado de Investigacion</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>boss3</userName>
+      <roleName>Director de Gesti&#xf3;n Institucional</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>cord3</userName>
+      <roleName>Coordinadora Administrativa</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>asist3</userName>
+      <roleName>Asistente de Gesti&#xf3;n Institucional</roleName>
+      <groupName>acme</groupName>
     </membership>
   </memberships>
 </organization:Organization>
