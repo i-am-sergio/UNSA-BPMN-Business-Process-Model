@@ -571,6 +571,46 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
+    <user userName="us1">
+      <firstName>Pedro</firstName>
+      <lastName>Doe1</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="us2">
+      <firstName>Pedro</firstName>
+      <lastName>Doe2</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="us3">
+      <firstName>Pedro</firstName>
+      <lastName>Doe3</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="us4">
+      <firstName>Pedro</firstName>
+      <lastName>Doe4</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="User1">
+      <firstName>Pedro</firstName>
+      <lastName>Doe5</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="member">
@@ -603,6 +643,21 @@
     </role>
     <role name="Asistente de Gesti&#xf3;n Institucional">
       <displayName>Asistente de Gesti&#xf3;n Institucional</displayName>
+    </role>
+    <role name="Director de Admision">
+      <displayName>Director de Admision</displayName>
+    </role>
+    <role name="Representante del Comite de  Planificacion">
+      <displayName>Representante del Comite de  Planificacion</displayName>
+    </role>
+    <role name="Secretaria Principal">
+      <displayName>Secretaria Principal</displayName>
+    </role>
+    <role name="Cordinador del Comite de Procesos de Seleccion">
+      <displayName>Cordinador del Comite de Procesos de Seleccion</displayName>
+    </role>
+    <role name="Secretaria">
+      <displayName>Secretaria</displayName>
     </role>
   </roles>
   <groups>
@@ -821,6 +876,31 @@
     <membership>
       <userName>asist3</userName>
       <roleName>Asistente de Gesti&#xf3;n Institucional</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>us1</userName>
+      <roleName>Director de Admision</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>us2</userName>
+      <roleName>Representante del Comite de  Planificacion</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>us3</userName>
+      <roleName>Secretaria Principal</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>us4</userName>
+      <roleName>Secretaria</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>User1</userName>
+      <roleName>Cordinador del Comite de Procesos de Seleccion</roleName>
       <groupName>acme</groupName>
     </membership>
   </memberships>

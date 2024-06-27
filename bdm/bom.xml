@@ -1,6 +1,107 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
     <businessObjects>
+        <businessObject qualifiedName="com.dex.gestionAdmision.AprobacionDeVacantes">
+            <fields>
+                <field type="STRING" length="255" name="codigoActividad" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="estadoDeAprobacion" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dex.gestionAdmision.DocumentoCronograma">
+            <fields>
+                <field type="STRING" length="255" name="codigo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="archivo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="attribute2" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dex.gestionAdmision.DocumentoProspecto">
+            <fields>
+                <field type="BOOLEAN" length="255" name="estadoAprobacion" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="archivo" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dex.gestionAdmision.DocumentoReglamentoDeAdmision">
+            <fields>
+                <field type="STRING" length="255" name="codigo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="archivo" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="estadoAprobacion" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dex.gestionAdmision.EventoExamen">
+            <fields>
+                <field type="STRING" length="255" name="codigo" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaExamen" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="coordinador" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="documentoListaPostulantes" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dex.gestionAdmision.ListaRequisitos">
+            <fields>
+                <field type="STRING" length="255" name="codigo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="dni" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="certificadoDeEstudios" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="foto" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dex.gestionAdmision.PoliticaAdmision">
+            <fields>
+                <field type="STRING" length="255" name="id" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="politicaActual" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaUltimaActualizacion" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dex.gestionAdmision.PresentacionVacantesPrograma">
+            <fields>
+                <field type="STRING" length="255" name="id" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fecha" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="programaAcademico" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="numeroVacamtes" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dex.gestionAdmision.PublicacionDeResultados">
+            <fields>
+                <field type="STRING" length="255" name="codigo" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="estadoPublicacion" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fecha" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dex.gestionAdmision.ResultadosDeSeleccion">
+            <fields>
+                <field type="STRING" length="255" name="codigo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="documentoResultadosExamen" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="documentoVacantesConfirmadas" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
         <businessObject qualifiedName="com.dex.gestion_desarrollo.EntradaDesarrollo">
             <fields>
                 <field type="STRING" length="255" name="rsu" nullable="true" collection="false"/>
