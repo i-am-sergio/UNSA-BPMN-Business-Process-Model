@@ -2,6 +2,10 @@
 
 ## Modelo
 
+<p align="center">
+  <img src="resources/pm-sergio/pool1-pool2.png" alt="Arquitectura" width="720px" />
+</p>
+
 ### Descripción
 
 #### Pool 1: Planificación y Actualización de Políticas de Admisión
@@ -39,10 +43,44 @@
 
 ### Modelo de Datos
 
+<p align="center">
+  <img src="resources/pm-sergio/modelo-datos.png" alt="Arquitectura" width="720px" />
+</p>
+
 ### Variables
+
+<p align="center">
+  <img src="resources/pm-sergio/variables-proceso1.png" alt="Arquitectura" width="720px" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-sergio/variables-proceso2.png" alt="Arquitectura" width="720px" />
+</p>
+
 
 ### Contratos
 
+<p align="center">
+  <img src="resources/pm-sergio/contrato1.png" alt="Arquitectura" width="720px" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-sergio/contrato2.png" alt="Arquitectura" width="720px" />
+</p>
+
 ### Formularios GUI
 
+<p align="center">
+  <img src="resources/pm-sergio/formularios.png" alt="Arquitectura" width="720px" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-sergio/formularios.png" alt="Arquitectura" width="720px" />
+</p>
+
+
 ### Mapeamiento de Actores y Roles
+
+<p align="center">
+  <img src="resources/pm-sergio/roles.png" alt="Arquitectura" width="720px" />
+</p>
