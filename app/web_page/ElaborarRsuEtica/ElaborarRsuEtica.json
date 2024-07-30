@@ -1,0 +1,883 @@
+{
+  "id" : "ElaborarRsuEtica",
+  "name" : "ElaborarRsuEtica",
+  "type" : "form",
+  "uuid" : "bdc75b9e-fc37-405f-86eb-b4c6a02e7a18",
+  "modelVersion" : "2.6",
+  "lastUpdate" : 1718922599898,
+  "description" : "Page generated with Bonita UI designer",
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : { },
+        "reference" : "bd6037bb-a2b1-4d0a-8896-ce254d0314c4",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 1"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "{{ task.displayName }}"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "ca8d03a6-6a14-47e4-a57f-995950887550",
+              "hasValidationError" : false,
+              "id" : "pbTitle",
+              "description" : ""
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "allowHtml" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "label" : {
+                  "type" : "interpolation"
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "{{ task.displayDescription }}"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                }
+              },
+              "reference" : "800ce4d1-66b7-47b4-9059-1287fd9aacdd",
+              "hasValidationError" : false,
+              "id" : "pbText",
+              "description" : ""
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "2a8baabd-977e-4284-a458-6c7a776f4677",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 4"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "Documentos Recibidos"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
+                }
+              },
+              "reference" : "2a441c7a-ad6c-4a31-bc30-28715c47d312",
+              "hasValidationError" : false,
+              "id" : "pbTitle",
+              "description" : ""
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 1
+                },
+                "readOnly" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Diagnóstico Anual de Gestión de la RSU"
+                },
+                "placeholder" : {
+                  "type" : "constant"
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "text"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "recibir_informacion.diagnostico"
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "minLength" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "maxLength" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "debounce" : {
+                  "type" : "constant",
+                  "value" : 0
+                },
+                "min" : {
+                  "type" : "constant"
+                },
+                "max" : {
+                  "type" : "constant"
+                },
+                "step" : {
+                  "type" : "constant",
+                  "value" : 1
+                }
+              },
+              "reference" : "e4a9638f-abc2-4f19-b6b7-7748bc3042b3",
+              "hasValidationError" : false,
+              "id" : "pbInput",
+              "description" : ""
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 1
+                },
+                "readOnly" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Reporte de Sostenibilidad Anual (informe Anual RSU)"
+                },
+                "placeholder" : {
+                  "type" : "constant"
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "text"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "recibir_informacion.informe"
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "minLength" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "maxLength" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "debounce" : {
+                  "type" : "constant",
+                  "value" : 0
+                },
+                "min" : {
+                  "type" : "constant"
+                },
+                "max" : {
+                  "type" : "constant"
+                },
+                "step" : {
+                  "type" : "constant",
+                  "value" : 1
+                }
+              },
+              "reference" : "ea2d6917-9fa2-45a0-8951-8cad97631263",
+              "hasValidationError" : false,
+              "id" : "pbInput",
+              "description" : ""
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 12,
+                "sm" : 12,
+                "xs" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 1
+                },
+                "readOnly" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Plan Estratégico Institucional (PEI)"
+                },
+                "placeholder" : {
+                  "type" : "constant"
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "text"
+                },
+                "dimension" : {
+                  "type" : "constant",
+                  "value" : 12
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "recibir_informacion.pei"
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "minLength" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "maxLength" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "debounce" : {
+                  "type" : "constant",
+                  "value" : 0
+                },
+                "min" : {
+                  "type" : "constant"
+                },
+                "max" : {
+                  "type" : "constant"
+                },
+                "step" : {
+                  "type" : "constant",
+                  "value" : 1
+                }
+              },
+              "reference" : "ea888ee9-2c43-4f86-a51e-d2867eb20e4d",
+              "hasValidationError" : false,
+              "id" : "pbInput",
+              "description" : ""
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type" : "formContainer",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "1b2dae55-f9c4-47c7-afa5-7841aa036a97",
+        "hasValidationError" : false,
+        "id" : "pbFormContainer",
+        "container" : {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12
+          },
+          "propertyValues" : { },
+          "reference" : "6b080beb-927d-44db-8d30-fa62b780fcc6",
+          "hasValidationError" : false,
+          "id" : "pbContainer",
+          "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Plan Anual de Responsabilidad Social Universitaria"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  }
+                },
+                "reference" : "00a19d26-0de7-4db4-a3b3-e9b63be0e278",
+                "hasValidationError" : false,
+                "id" : "pbTitle",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "container",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "repeatedCollection" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "c06741e4-6263-450a-bd22-10ec62b0acd2",
+                "hasValidationError" : false,
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Link a Plan Anual de RSU"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "elaborar_rsu.rsu"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "482f926c-f222-4b2d-a2fb-32d85ee2c50e",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "removeItem" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "primary"
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Submit"
+                  },
+                  "dataToSend" : {
+                    "type" : "expression",
+                    "value" : "formOutput"
+                  },
+                  "dataFromError" : {
+                    "type" : "variable",
+                    "value" : "formOutput._submitError"
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant"
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation",
+                    "value" : "/bonita"
+                  },
+                  "action" : {
+                    "type" : "constant",
+                    "value" : "Submit task"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
+                  "valueToAdd" : {
+                    "type" : "expression"
+                  },
+                  "disabled" : {
+                    "type" : "expression",
+                    "value" : "$form.$invalid"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "center"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "a08720a3-b986-46ac-914c-607d3c0beaf3",
+                "hasValidationError" : false,
+                "id" : "pbButton",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "allowHtml" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "labelHidden" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "hidden" : {
+                    "type" : "expression",
+                    "value" : "!formOutput._submitError.message"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : "alert alert-danger col-lg-6 col-lg-offset-3"
+                  },
+                  "label" : {
+                    "type" : "interpolation"
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "<strong>Debug message</strong>\n<br/>\n{{formOutput._submitError.message}}\n{{submit_errors_list}}"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "e4e7dd5d-f7f5-41d6-b370-b3761e07915d",
+                "hasValidationError" : false,
+                "id" : "pbText",
+                "description" : ""
+              }
+            ]
+          ]
+        }
+      }
+    ]
+  ],
+  "variables" : {
+    "task" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "submit_errors_list" : {
+      "type" : "expression",
+      "value" : [
+        "if($data.formOutput && $data.formOutput._submitError && $data.formOutput._submitError.explanations){",
+        "\tconst liElements = $data.formOutput._submitError.explanations",
+        "\t\t.filter(cause => cause !== null)",
+        "\t\t.map(cause => \"<li>\" + cause + \"</li>\")",
+        "\t\t.join('');",
+        "\tif(liElements){",
+        "\t\treturn \"<ul>\" + liElements + \"</ul>\";",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : [
+        "if( $data.elaborar_rsu && $data.recibir_informacion ){",
+        "\treturn {",
+        "\t\t//map elaborar_rsu variable to expected task contract input",
+        "\t\telaborar_rsuInput: {",
+        "\t\t\trsu: $data.elaborar_rsu.rsu !== undefined ? $data.elaborar_rsu.rsu : null",
+        "\t\t},",
+        "\t\t//map recibir_informacion variable to expected task contract input",
+        "\t\trecibir_informacionInput: {",
+        "\t\t\tdiagnostico: $data.recibir_informacion.diagnostico !== undefined ? $data.recibir_informacion.diagnostico : null,",
+        "\t\t\tinforme: $data.recibir_informacion.informe !== undefined ? $data.recibir_informacion.informe : null,",
+        "\t\t\tpei: $data.recibir_informacion.pei !== undefined ? $data.recibir_informacion.pei : null",
+        "\t\t}",
+        "\t}",
+        "}"
+      ],
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}/context"
+      ],
+      "exposed" : false
+    },
+    "elaborar_rsu" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.elaborar_rsu_ref.link}}"
+      ],
+      "exposed" : false
+    },
+    "recibir_informacion" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.recibir_informacion_ref.link}}"
+      ],
+      "exposed" : false
+    },
+    "taskId" : {
+      "type" : "urlparameter",
+      "value" : [
+        "id"
+      ],
+      "exposed" : false
+    }
+  },
+  "assets" : [
+    {
+      "id" : "b57ff2b9-146d-438a-87fe-a0fe4d4ef3e1",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "3d09beae-ff94-4f1d-8bb4-58f202e24697",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
+}

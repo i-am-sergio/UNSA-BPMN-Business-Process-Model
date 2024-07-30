@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
     <businessObjects>
-        <businessObject qualifiedName="com.dexo.model.Cursos">
+        <businessObject qualifiedName="com.dex.gestion_desarrollo.EntradaDesarrollo">
+            <fields>
+                <field type="STRING" length="255" name="rsu" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dex.gestion_desarrollo.InformeRSU">
+            <fields>
+                <field type="STRING" length="255" name="rsufinal" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dex.gestion_desarrollo.PlanificarDesarrollo">
+            <fields>
+                <field type="STRING" length="255" name="planificacion" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="aprobar" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dex.gestion_etica.EntradasEtica">
+            <fields>
+                <field type="STRING" length="255" name="diagnostico" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="informe" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="pei" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dex.gestion_etica.RSUEtica">
+            <fields>
+                <field type="STRING" length="255" name="rsu" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dex.gestion_etica.ValidacionEtica">
+            <fields>
+                <field type="BOOLEAN" length="255" name="aprobado" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.dex.gestion_financiamiento.AprobarAsignaciondeFondos">
             <fields>
                 <field type="STRING" length="255" name="fullName" nullable="true" collection="false"/>
                 <field type="STRING" length="255" name="courseIds" nullable="true" collection="false"/>
