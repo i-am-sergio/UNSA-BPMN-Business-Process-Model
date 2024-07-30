@@ -3,6 +3,16 @@
 
 ## Modelo
 
+<p align="center">
+  <img src="resources/pm-paul/pool1.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-paul/pool2.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-paul/pool3.png" alt="Performance Test" />
+</p>
+
 ### Descripción:
 
 #### Pool 1: Elaboración, Evaluación, Coordinación y Supervisión del PAMC
@@ -37,8 +47,28 @@
 
 ### Roles
 
-### Modelos
+<p align="center">
+  <img src="resources/pm-paul/roles.png" alt="Performance Test" />
+</p>
+
+### Modelo de Datos
+<p align="center">
+  <img src="resources/pm-paul/modelos.png" alt="Performance Test" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-paul/digrama-modelo-1.png" alt="Performance Test" />
+  <img src="resources/pm-paul/diagrama-modelo2.png" alt="Performance Test1" />
+</p>
 
 ### Formularios
 
-### Total de Formularios
+<p align="center">
+  <img src="resources/pm-paul/formularios.png" alt="Performance Test" />
+</p>
+
+### Ejemplo de Formulario
+
+<p align="center">
+  <img src="resources/pm-paul/formulario-evaluacion-pamc.png" alt="Performance Test" />
+</p>

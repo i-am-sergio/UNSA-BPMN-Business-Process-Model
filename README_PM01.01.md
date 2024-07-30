@@ -2,6 +2,10 @@
 
 ## Modelo
 
+<p align="center">
+  <img src="resources/pm-nelzon/pool1-pool2-pool3.png" alt="Arquitectura" width="720px" />
+</p>
+
 ### Descripción
 
 #### Pool 1: Programación, Formulación y Aprobación del Presupuesto Institucional
@@ -39,10 +43,45 @@
 
 ### Modelo de Datos
 
+<p align="center">
+  <img src="resources/pm-nelzon/diagrama-modelo.png" alt="Arquitectura" width="720px" />
+</p>
+
 ### Variables
 
-### Contratos
+<p align="center">
+  <img src="resources/pm-nelzon/variables-proceso1.png" alt="Arquitectura" width="720px" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-nelzon/variables-proceso2.png" alt="Arquitectura" width="720px" />
+</p>
+
 
 ### Formularios GUI
 
+<p align="center">
+  <img src="resources/pm-nelzon/formulario-aprueba-inicio-procesos.png" alt="Arquitectura" width="720px" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-nelzon/formulario-cuadro-multimanual.png" alt="Arquitectura" width="720px" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-nelzon/formulario-ingrese-informacion-pei.png" alt="Arquitectura" width="720px" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-nelzon/formulario-propuestas-presupuestarias.png" alt="Arquitectura" width="720px" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-nelzon/formulario-recopilar-poi.png" alt="Arquitectura" width="720px" />
+</p>
+
 ### Mapeamiento de Actores y Roles
+
+<p align="center">
+  <img src="resources/pm-nelzon/roles.png" alt="Arquitectura" width="720px" />
+</p>
