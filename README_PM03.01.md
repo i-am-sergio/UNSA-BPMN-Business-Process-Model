@@ -2,6 +2,18 @@
 
 ## Modelo:
 
+<p align="center">
+  <img src="resources/pm-shinji/pool1.png" alt="Arquitectura" width="720px" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-shinji/pool2.png" alt="Arquitectura" width="720px" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-shinji/pool3.png" alt="Arquitectura" width="720px" />
+</p>
+
 ### Descripción:
 
 #### Pool 1: Gestión Institucional
@@ -46,8 +58,52 @@
 
 ### Roles
 
+<p align="center">
+  <img src="resources/pm-shinji/roles.png" alt="Arquitectura" width="720px" />
+</p>
+
 ### Modelos
+
+<p align="center">
+  <img src="resources/pm-shinji/modelo.png" alt="Arquitectura" width="720px" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-shinji/diagrama-modelo.png" alt="Arquitectura" width="720px" />
+</p>
 
 ### Formularios
 
+### PM03.01.01:
+
+<p align="center">
+  <img src="resources/pm-shinji/variables-proceso1.png" alt="Arquitectura" width="720px" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-shinji/formulario-validar-rsu.png" alt="Arquitectura" width="720px" />
+</p>
+
+### PM03.01.02:
+
+<p align="center">
+  <img src="resources/pm-shinji/variables-proceso2.png" alt="Arquitectura" width="720px" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-shinji/forumario-informe-rsu.png" alt="Arquitectura" width="720px" />
+</p>
+
 ### Total de Formularios
+
+### PM03.01.01:
+
+<p align="center">
+  <img src="resources/pm-shinji/cronologia.png" alt="Arquitectura" width="720px" />
+</p>
+
+### PM03.01.02:
+
+<p align="center">
+  <img src="resources/pm-shinji/cronologia1.png" alt="Arquitectura" width="720px" />
+</p>
