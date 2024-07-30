@@ -577,23 +577,23 @@
       <displayName>Member</displayName>
       <description></description>
     </role>
-    <role name="Responsable de Gesti&#xf3;n de Fondos">
-      <displayName>Responsable de Gesti&#xf3;n de Fondos</displayName>
+    <role name="Coordinador de Planificaci&#xf3;n">
+      <displayName>Coordinador de Planificaci&#xf3;n</displayName>
     </role>
-    <role name="Coordinador de Proyectos">
-      <displayName>Coordinador de Proyectos</displayName>
+    <role name="Coordinador de GR">
+      <displayName>Coordinador de GR</displayName>
     </role>
-    <role name="Gestor de Relaciones Externas">
-      <displayName>Gestor de Relaciones Externas</displayName>
+    <role name="Coordinador de Recuperaci&#xf3;n Post-Desastre">
+      <displayName>Coordinador de Recuperaci&#xf3;n Post-Desastre</displayName>
     </role>
-    <role name="Responsable de Planificaci&#xf3;n de I+D+I+E">
-      <displayName>Responsable de Planificaci&#xf3;n de I+D+I+E</displayName>
+    <role name="Analista de Riesgos">
+      <displayName>Analista de Riesgos</displayName>
     </role>
-    <role name="Analista de Informaci&#xf3;n">
-      <displayName>Analista de Informaci&#xf3;n</displayName>
+    <role name="Jefe de Oficina">
+      <displayName>Jefe de Oficina</displayName>
     </role>
-    <role name="Director del Vicerrectorado de Investigacion">
-      <displayName>Director del Vicerrectorado de Investigacion</displayName>
+    <role name="Coordinador de Gesti&#xf3;n de Respuestas">
+      <displayName>Coordinador de Gesti&#xf3;n de Respuestas</displayName>
     </role>
     <role name="Director de Gesti&#xf3;n Institucional">
       <displayName>Director de Gesti&#xf3;n Institucional</displayName>
@@ -670,13 +670,13 @@
     </membership>
     <membership>
       <userName>april.sanchez</userName>
-      <roleName>Coordinador de Proyectos</roleName>
+      <roleName>Coordinador de GR</roleName>
       <groupName>hr</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>helen.kelly</userName>
-      <roleName>Director del Vicerrectorado de Investigacion</roleName>
+      <roleName>Coordinador de Gesti&#xf3;n de Respuestas</roleName>
       <groupName>hr</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
@@ -724,7 +724,7 @@
     </membership>
     <membership>
       <userName>favio.riviera</userName>
-      <roleName>Responsable de Planificaci&#xf3;n de I+D+I+E</roleName>
+      <roleName>Coordinador de Planificaci&#xf3;n</roleName>
       <groupName>marketing</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
@@ -760,7 +760,7 @@
     </membership>
     <membership>
       <userName>daniela.angelo</userName>
-      <roleName>Gestor de Relaciones Externas</roleName>
+      <roleName>Coordinador de Recuperaci&#xf3;n Post-Desastre</roleName>
       <groupName>europe</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
@@ -778,13 +778,13 @@
     </membership>
     <membership>
       <userName>giovanna.almeida</userName>
-      <roleName>Analista de Informaci&#xf3;n</roleName>
+      <roleName>Analista de Riesgos</roleName>
       <groupName>latin_america</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
     <membership>
       <userName>anthony.nichols</userName>
-      <roleName>Responsable de Gesti&#xf3;n de Fondos</roleName>
+      <roleName>Jefe de Oficina</roleName>
       <groupName>north_america</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
