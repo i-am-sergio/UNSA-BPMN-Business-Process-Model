@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:decision="http://www.bonitasoft.org/ns/bpm/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/bpm/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/bpm/process">
   <process:MainProcess xmi:id="_vCelUCtpEe-GQdByl4qvpg" name="PM02.04.GestionDeRiesgosDeDesastres" bonitaModelVersion="8">
-    <elements xmi:type="process:Pool" xmi:id="_vCelUStpEe-GQdByl4qvpg" name="PlanificacionI+D+i+e">
-      <elements xmi:type="process:Lane" xmi:id="_vCelUitpEe-GQdByl4qvpg" name="Vicerrectorado de Investifacion" actor="_9Hv8QC3tEe-AtcusV1AfBQ">
+    <elements xmi:type="process:Pool" xmi:id="_vCelUStpEe-GQdByl4qvpg" name="Gestion de Riesgos">
+      <elements xmi:type="process:Lane" xmi:id="_vCelUitpEe-GQdByl4qvpg" name="Jefe de Oficina" actor="_9Hv8QC3tEe-AtcusV1AfBQ">
         <elements xmi:type="process:StartEvent" xmi:id="_vCelUytpEe-GQdByl4qvpg" name="Inicio proceso" outgoing="_IG0-ICtrEe-GQdByl4qvpg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_vCelVCtpEe-GQdByl4qvpg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_vCelVStpEe-GQdByl4qvpg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_vCelVitpEe-GQdByl4qvpg" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:CallActivity" xmi:id="_E6JmwCtrEe-GQdByl4qvpg" name="Planificacion estrategica  de I+D+i+e" outgoing="_OO03ICtrEe-GQdByl4qvpg" incoming="_IG0-ICtrEe-GQdByl4qvpg">
+        <elements xmi:type="process:CallActivity" xmi:id="_E6JmwCtrEe-GQdByl4qvpg" name="Estimación, prevención y reducción de riesgos" outgoing="_OO03ICtrEe-GQdByl4qvpg" incoming="_IG0-ICtrEe-GQdByl4qvpg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_E6K04StrEe-GQdByl4qvpg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_E6K04CtrEe-GQdByl4qvpg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_E6K04itrEe-GQdByl4qvpg" name="" content="" returnTypeFixed="true"/>
@@ -17,10 +17,10 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_E6K05ytrEe-GQdByl4qvpg" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_E6K06StrEe-GQdByl4qvpg" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_E6K06CtrEe-GQdByl4qvpg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <calledActivityName xmi:type="expression:Expression" xmi:id="_E6K04ytrEe-GQdByl4qvpg" name="Estimación, prevención y reducción de riesgosdd" content="Estimación, prevención y reducción de riesgosdd" returnTypeFixed="true"/>
+          <calledActivityName xmi:type="expression:Expression" xmi:id="_E6K04ytrEe-GQdByl4qvpg" name="Estimación, prevención y reducción de riesgos" content="Estimación, prevención y reducción de riesgos" returnTypeFixed="true"/>
           <calledActivityVersion xmi:type="expression:Expression" xmi:id="_E6K05CtrEe-GQdByl4qvpg" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:CallActivity" xmi:id="_JJt-gCtrEe-GQdByl4qvpg" name="Gestion de fondos para la investigacion" outgoing="_Oo5kACtrEe-GQdByl4qvpg" incoming="_OO03ICtrEe-GQdByl4qvpg">
+        <elements xmi:type="process:CallActivity" xmi:id="_JJt-gCtrEe-GQdByl4qvpg" name="Preparacion y Respuesta" outgoing="_Oo5kACtrEe-GQdByl4qvpg" incoming="_OO03ICtrEe-GQdByl4qvpg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_JJulkStrEe-GQdByl4qvpg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_JJulkCtrEe-GQdByl4qvpg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_JJulkitrEe-GQdByl4qvpg" name="" content="" returnTypeFixed="true"/>
@@ -29,7 +29,7 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_JJullytrEe-GQdByl4qvpg" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_JJulmStrEe-GQdByl4qvpg" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_JJulmCtrEe-GQdByl4qvpg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <calledActivityName xmi:type="expression:Expression" xmi:id="_JJulkytrEe-GQdByl4qvpg" name="Estimación, prevención y reducción de riesgos" content="Estimación, prevención y reducción de riesgos" returnTypeFixed="true"/>
+          <calledActivityName xmi:type="expression:Expression" xmi:id="_JJulkytrEe-GQdByl4qvpg" name="Preparacion y Respuesta" content="Preparacion y Respuesta" returnTypeFixed="true"/>
           <calledActivityVersion xmi:type="expression:Expression" xmi:id="_JJullCtrEe-GQdByl4qvpg" name="" content="" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:EndEvent" xmi:id="_N2nygCtrEe-GQdByl4qvpg" name="Fin1" incoming="_Oo5kACtrEe-GQdByl4qvpg">
@@ -56,7 +56,7 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_Oo6LECtrEe-GQdByl4qvpg"/>
         <condition xmi:type="expression:Expression" xmi:id="_Oo6LEStrEe-GQdByl4qvpg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <actors xmi:type="process:Actor" xmi:id="_9Hv8QC3tEe-AtcusV1AfBQ" name="Director del Vicerrectorado de Investigacion" initiator="true"/>
+      <actors xmi:type="process:Actor" xmi:id="_9Hv8QC3tEe-AtcusV1AfBQ" name="Jefe de Oficina" initiator="true"/>
       <contract xmi:type="process:Contract" xmi:id="_vCelbCtpEe-GQdByl4qvpg"/>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_vCelbStpEe-GQdByl4qvpg">
         <name xmi:type="expression:Expression" xmi:id="_vCelbitpEe-GQdByl4qvpg" content="" returnTypeFixed="true"/>
@@ -596,7 +596,7 @@
         <defaultValue xmi:type="expression:Expression" xmi:id="_CtOSQTJoEe-oFYhFwre4Cw" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_0IqcDytpEe-GQdByl4qvpg">
-        <targetForm xmi:type="expression:Expression" xmi:id="_NCToADJuEe-oFYhFwre4Cw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_UMC0YDJ6Ee-oFYhFwre4Cw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_0IrDECtpEe-GQdByl4qvpg">
         <targetForm xmi:type="expression:Expression" xmi:id="_0IrDEStpEe-GQdByl4qvpg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -1139,7 +1139,7 @@
         <defaultValue xmi:type="expression:Expression" xmi:id="_ytorQTJ2Ee-oFYhFwre4Cw" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_3Y4PlStpEe-GQdByl4qvpg">
-        <targetForm xmi:type="expression:Expression" xmi:id="_Psf89S4GEe-IB970bJnsFw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_UcCYMDJ6Ee-oFYhFwre4Cw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_3Y4PlytpEe-GQdByl4qvpg">
         <targetForm xmi:type="expression:Expression" xmi:id="_3Y4PmCtpEe-GQdByl4qvpg" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>

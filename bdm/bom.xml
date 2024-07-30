@@ -1,114 +1,91 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
     <businessObjects>
-        <businessObject qualifiedName="com.dex.gestion_financiamiento.AprobarAsignaciondeFondos">
+        <businessObject qualifiedName="com.dexo.model.Cursos">
             <fields>
-                <field type="BOOLEAN" length="255" name="aprobacion_de_fondos" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="comentarios_del_coordinador" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="fecha_de_aprobacion" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="fullName" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="courseIds" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="academicPerformance" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="credit" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.dex.gestion_financiamiento.EstrategiasDeFinanciamiento">
+        <businessObject qualifiedName="com.dexo.model.OperacionEmergencia">
             <fields>
-                <field type="STRING" length="255" name="estrategias_de_financiamiento" nullable="true" collection="false"/>
-                <field type="FLOAT" length="255" name="fondos_suficientes" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="fecha_de_definicion" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="descripcion" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="equipoRespuesta" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaEjecucion" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="impacto" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.dex.gestion_financiamiento.EvaluarFondosDisponibles">
+        <businessObject qualifiedName="com.dexo.model.PlanContingencia">
             <fields>
-                <field type="FLOAT" length="255" name="fondos_disponibles" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="fecha_de_evaluacion" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nombrePlan" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="descripcion" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaElaboracion" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaImplementacion" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.dex.gestion_financiamiento.FondosaProyectos">
+        <businessObject qualifiedName="com.dexo.model.PlanGestionRiesgos">
             <fields>
-                <field type="STRING" length="255" name="proyecto_asignado" nullable="true" collection="false"/>
-                <field type="FLOAT" length="255" name="fondos_asignados" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="fecha_de_asignacion" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nombrePlan" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="descripcion" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="esAdecuado" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaElaboracion" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaModificacion" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.dex.gestion_financiamiento.NegociarFinanciamiento">
+        <businessObject qualifiedName="com.dexo.model.PlanReconstruccion">
             <fields>
-                <field type="STRING" length="255" name="condiciones_negociadas" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="institucion_externa" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="fecha_de_negociacion" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaInicio" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaFin" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="descripcion" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nomreProyecto" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.dex.gestion_financiamiento.SolicituddeFondosExternos">
+        <businessObject qualifiedName="com.dexo.model.ProcesoEstimacion">
             <fields>
-                <field type="BOOLEAN" length="255" name="confirmacion_de_solicitud" nullable="true" collection="false"/>
-                <field type="FLOAT" length="255" name="monto_confirmado" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="fecha_de_confirmacion" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nombreProceso" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="descripcion" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="estado" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaInicio" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaFin" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.dexo.plan_estrategico.AnalizarInformacion">
+        <businessObject qualifiedName="com.dexo.model.ProcesoPreparacion">
             <fields>
-                <field type="STRING" length="255" name="resultado_analisis" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="fecha" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nombreProceso" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="descripcion" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="estado" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaInicio" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaFin" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.dexo.plan_estrategico.AprobarEstrategia">
+        <businessObject qualifiedName="com.dexo.model.Riesgo">
             <fields>
-                <field type="LOCALDATE" length="255" name="fecha" nullable="true" collection="false"/>
-                <field type="BOOLEAN" length="255" name="aprobacion_estrategia" nullable="true" collection="false"/>
-            </fields>
-            <uniqueConstraints/>
-            <queries/>
-            <indexes/>
-        </businessObject>
-        <businessObject qualifiedName="com.dexo.plan_estrategico.ModificarObjetivosEstrategicos">
-            <fields>
-                <field type="STRING" length="255" name="objetivos_estrategicos" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="fecha" nullable="true" collection="false"/>
-            </fields>
-            <uniqueConstraints/>
-            <queries/>
-            <indexes/>
-        </businessObject>
-        <businessObject qualifiedName="com.dexo.plan_estrategico.ObjetivosEstrategicos">
-            <fields>
-                <field type="STRING" length="255" name="objetivos_estrategicos" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="fecha" nullable="true" collection="false"/>
-            </fields>
-            <uniqueConstraints/>
-            <queries/>
-            <indexes/>
-        </businessObject>
-        <businessObject qualifiedName="com.dexo.plan_estrategico.PlanDeAccion">
-            <fields>
-                <field type="STRING" length="255" name="plan_de_accion" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="fecha" nullable="true" collection="false"/>
-            </fields>
-            <uniqueConstraints/>
-            <queries/>
-            <indexes/>
-        </businessObject>
-        <businessObject qualifiedName="com.dexo.plan_estrategico.RecibirInformacion">
-            <fields>
-                <field type="STRING" length="255" name="informacion_recibida" nullable="true" collection="false"/>
-                <field type="LOCALDATE" length="255" name="fecha" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="descripcion" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nivelRiesgo" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="medidasMitigacion" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
