@@ -2,6 +2,16 @@
 
 ## Modelo
 
+<p align="center">
+  <img src="resources/pm-luciana/pool1.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-luciana/pool2.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-luciana/pool3.png" alt="Performance Test" />
+</p>
+
 ### Descripción
 
 #### Pool 1: Relación Internacionales
