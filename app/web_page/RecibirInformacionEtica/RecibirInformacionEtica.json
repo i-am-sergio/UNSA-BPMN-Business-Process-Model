@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "b51e7600-3397-46cf-b685-20d9d3ba3525",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1718922285101,
+  "lastUpdate" : 1719614932182,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -13,8 +13,20 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
-        "reference" : "c351c931-d122-4d8b-a0f0-6bbf7f41530b",
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "f30043cd-db0a-429e-af21-96c08806044d",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -42,7 +54,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "{{ task.displayName }}"
+                  "value" : "Planificar Examen"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -58,54 +70,6 @@
               "id" : "pbTitle",
               "description" : ""
             }
-          ],
-          [
-            {
-              "type" : "component",
-              "dimension" : {
-                "md" : 12,
-                "sm" : 12,
-                "xs" : 12,
-                "lg" : 12
-              },
-              "propertyValues" : {
-                "allowHtml" : {
-                  "type" : "constant",
-                  "value" : true
-                },
-                "labelHidden" : {
-                  "type" : "constant",
-                  "value" : true
-                },
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "label" : {
-                  "type" : "interpolation"
-                },
-                "text" : {
-                  "type" : "interpolation",
-                  "value" : "{{ task.displayDescription }}"
-                },
-                "alignment" : {
-                  "type" : "constant",
-                  "value" : "left"
-                },
-                "dimension" : {
-                  "type" : "constant",
-                  "value" : 12
-                }
-              },
-              "reference" : "f6fb982d-d117-4364-b7d3-3bb39b745b97",
-              "hasValidationError" : false,
-              "id" : "pbText",
-              "description" : ""
-            }
           ]
         ]
       }
@@ -116,8 +80,17 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
-        "reference" : "d783f2cf-387c-4175-8d6a-b9912b46232c",
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "63e67e86-b4e0-4f0d-b2ff-1ef1c15e1d25",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -130,47 +103,6 @@
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
-            [
-              {
-                "type" : "component",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "level" : {
-                    "type" : "constant",
-                    "value" : "Level 4"
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "Recibir_informacion"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "04e9dd4a-23e1-4390-88b1-18fddd94dea3",
-                "hasValidationError" : false,
-                "id" : "pbTitle",
-                "description" : ""
-              }
-            ],
             [
               {
                 "type" : "container",
@@ -237,7 +169,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Diagnóstico Anual de Gestión de la RSU"
+                          "value" : "Estrategia"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -327,7 +259,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Reporte de Sostenibilidad Anual (informe Anual RSU)"
+                          "value" : "Encargados"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -417,7 +349,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Plan Estratégico Institucional (PEI)"
+                          "value" : "Fecha de Ejecucion"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -462,7 +394,15 @@
                         },
                         "step" : {
                           "type" : "constant",
-                          "value" : 1
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "estrategias_de_financiamiento.fecha_de_definicion"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
                       "reference" : "695728a3-2965-4bb1-98db-3edf6725965c",

@@ -1,6 +1,15 @@
 # 3.7 PROCESO DE GESTIÓN DE RIESGOS Y DESASTRES 
 
 ## Modelo
+<p align="center">
+  <img src="resources/pm-avelino/diagrama-pool1.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-avelino/diagrama-pool2.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-avelino/diagrama-pool3.png" alt="Performance Test" />
+</p>
 
 ### Descripción
 
@@ -40,11 +49,70 @@
 | - Estrategias y cronogramas de recuperación para restaurar la normalidad después de la emergencia. |
 
 ### Modelo de Datos
+<p align="center">
+  <img src="resources/pm-avelino/modelos.png" alt="Performance Test" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-avelino/diagrama-modelo.png" alt="Performance Test" />
+</p>
 
 ### Variables
+<p align="center">
+  <img src="resources/pm-avelino/variables-proceso1.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-avelino/variables-proceso2.png" alt="Performance Test" />
+</p>
 
 ### Contratos
+<p align="center">
+  <img src="resources/pm-avelino/contratos.png" alt="Performance Test" />
+</p>
 
 ### Formularios GUI
+<p align="center">
+  <img src="resources/pm-avelino/formularios.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-avelino/formulario-identificar-proceso-nivel2.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-avelino/formulario-realizar-estimacion-riesgos.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-avelino/formulario-realizar-estimacion-riesgos.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-avelino/formulario-aprobar-plan.png" alt="Performance Test" />
+</p>
+
+<p align="center">
+  <img src="resources/pm-avelino/cronologia1.png" alt="Performance Test" />
+</p>
+
+
+
+<p align="center">
+  <img src="resources/pm-avelino/formulario-iniciar-plan-construccion.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-avelino/formulario-crear-plan-rehabilitacion.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-avelino/formulario-coordinar-equipos-respuesta.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-avelino/formulario-operaciones-emergencia.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-avelino/formulario-planes-contingencia.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-avelino/cronologia2.png" alt="Performance Test" />
+</p>
 
 ### Mapeamiento de Actores y Roles
+<p align="center">
+  <img src="resources/pm-avelino/roles.png" alt="Performance Test" />
+</p>

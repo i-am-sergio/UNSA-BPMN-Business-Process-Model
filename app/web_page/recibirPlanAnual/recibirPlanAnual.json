@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "453a7286-d99a-45a3-8c17-df987b5c6369",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1719241579465,
+  "lastUpdate" : 1719614539642,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -42,7 +42,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "{{ task.displayName }}"
+                  "value" : "Aprobar Documentos"
                 },
                 "alignment" : {
                   "type" : "constant",
