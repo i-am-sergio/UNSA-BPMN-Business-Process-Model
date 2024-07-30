@@ -1,31 +1,47 @@
-# UNSA-BPMN-Business-Process-Model
-
 # Modelado de Procesos de la Universidad Nacional de San Agustín (UNSA)
 
----
+## **Procesos de Negocio de la Universidad Nacional de San Agustín**
 
-## **Procesos Principales**
+### 3.0 PROCESO DE GESTIÓN DE MATRÍCULA
+El proceso de gestión de matrícula abarca todas las actividades relacionadas con la inscripción de estudiantes en los cursos ofrecidos por la universidad. Incluye la planificación de cursos, asignación de cupos, inscripción de estudiantes y generación de registros académicos.
 
-- **`P1: Formación Integral Académica:`**
-Este proceso se centra en la planificación, ejecución y evaluación de programas y actividades que contribuyan al desarrollo integral de los estudiantes en aspectos académicos, culturales, deportivos y éticos.
+<!-- [Más información sobre el Proceso de Gestión de Matrícula](./README.md) -->
 
-- **`P2: Investigación, Innovación y Emprendedurismo:`**
-Este proceso abarca la promoción y gestión de actividades de investigación científica, desarrollo tecnológico, innovación y emprendimiento, tanto en el ámbito académico como en colaboración con entidades externas.
+### 3.1 PROCESO DE GESTIÓN DE ADMISIÓN
+El proceso de gestión de admisión se centra en la atracción, evaluación y selección de nuevos estudiantes para la universidad. Involucra actividades como la promoción de programas académicos, el manejo de solicitudes de admisión y la organización de exámenes de ingreso.
 
-- **`P3: Responsabilidad Social Universitaria:`**
-Este proceso se enfoca en las acciones y programas que la universidad lleva a cabo para contribuir al desarrollo sostenible de la sociedad, mediante proyectos de extensión universitaria, programas de voluntariado y acciones de impacto social.
+[Más información sobre el Proceso de Gestión de Admisión](./README_PM01.md)
 
-- **`P4: Gestión de Calidad:`**
-Este proceso incluye las actividades destinadas a garantizar y mejorar la calidad de los servicios educativos y administrativos ofrecidos por la universidad, mediante la implementación de sistemas de gestión de calidad y la evaluación continua.
+### 3.2 PROCESO DE GESTIÓN PRESUPUESTAL
+El proceso de gestión presupuestal incluye la planificación, asignación y control de los recursos financieros de la universidad. Este proceso asegura que los fondos se utilicen de manera eficiente y que las actividades académicas y administrativas se financien adecuadamente.
 
-- **`P5: Gestión de la Internacionalización:`**
-Este proceso se refiere a las actividades orientadas a promover la internacionalización de la universidad, mediante la gestión de convenios de cooperación internacional, programas de intercambio estudiantil y proyectos de colaboración académica internacional.
+[Más información sobre el Proceso de Gestión Presupuestal](./README_PM01.01.md)
 
-- **`P6: Gestión de Planeamiento Estratégico:`**
-Este proceso comprende la formulación, implementación y seguimiento de planes estratégicos que orienten el desarrollo institucional de la universidad, alineando sus objetivos con su visión y misión institucional.
+### 3.3 PROCESO DE INVESTIGACIÓN, DESARROLLO, INNOVACIÓN Y EMPRENDIMIENTO
+Este proceso fomenta la investigación y el desarrollo en la universidad, promoviendo la innovación y el emprendimiento entre estudiantes y profesores. Incluye la gestión de proyectos de investigación, la búsqueda de financiamiento y la colaboración con otras instituciones y empresas.
 
-- **`P7: Gestión de Riesgos y Control Institucional:`**
-Este proceso se encarga de identificar, evaluar y gestionar los riesgos a los que se enfrenta la universidad en sus distintas áreas de actividad, así como de establecer mecanismos de control interno para mitigar dichos riesgos y garantizar el cumplimiento de normativas y políticas institucionales.
+[Más información sobre el Proceso de Investigación, Desarrollo, Innovación y Emprendimiento](./README_PM02.01.md)
+
+### 3.4 PROCESO DE GESTIÓN INSTITUCIONAL
+El proceso de gestión institucional se encarga de la administración general de la universidad, incluyendo la planificación estratégica, la toma de decisiones, la gestión de recursos humanos y la supervisión de las actividades académicas y administrativas.
+
+[Más información sobre el Proceso de Gestión Institucional](./README_PM01.02.md)
+
+### 3.5 PROCESO DE GESTIÓN DE CALIDAD INSTITUCIONAL
+Este proceso asegura que la universidad mantenga altos estándares de calidad en todas sus actividades. Involucra la evaluación y mejora continua de programas académicos, servicios administrativos y otras operaciones, así como la acreditación y certificación de la institución.
+
+[Más información sobre el Proceso de Gestión de Calidad Institucional](./README_PM02.02.md)
+
+### 3.6 PROCESO DE INTERNACIONALIZACIÓN INDIVIDUAL
+El proceso de internacionalización individual promueve la movilidad y la colaboración internacional de estudiantes y profesores. Incluye programas de intercambio, becas, y la participación en proyectos y conferencias internacionales.
+
+[Más información sobre el Proceso de Internacionalización Individual](./README_PM02.03.md)
+
+### 3.7 PROCESO DE GESTIÓN DE RIESGOS Y DESASTRES
+Este proceso se enfoca en identificar, evaluar y mitigar los riesgos que puedan afectar a la universidad. Incluye la preparación y respuesta ante desastres naturales, emergencias de salud y otras situaciones de crisis.
+
+[Más información sobre el Proceso de Gestión de Riesgos y Desastres](./README_PM02.04.md)
+
 
 ---
 
