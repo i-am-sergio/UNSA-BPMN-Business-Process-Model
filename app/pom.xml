@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.dexo</groupId>
-    <artifactId>unsa1-parent</artifactId>
+    <artifactId>unsa2-parent</artifactId>
     <version>0.0.1</version>
   </parent>
-  <artifactId>unsa1</artifactId>
+  <artifactId>unsa2</artifactId>
   <name>unsa</name>
   <description>Modelado de Procesos de Negocio de la Universidad Nacional de San Agustin</description>
   <dependencies>
@@ -77,6 +76,12 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>unsa2-bdm-model</artifactId>
+      <version>${project.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
       <groupId>org.bonitasoft.web.application</groupId>
       <artifactId>bonita-admin-application</artifactId>
       <type>zip</type>
@@ -86,6 +91,12 @@
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>unsa1-bdm-model</artifactId>
+      <version>${project.version}</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>unsa-bdm-model</artifactId>
       <version>${project.version}</version>
       <scope>provided</scope>
     </dependency>

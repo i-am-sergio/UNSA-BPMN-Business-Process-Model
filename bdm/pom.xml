@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.dexo</groupId>
-    <artifactId>unsa1-parent</artifactId>
+    <artifactId>unsa2-parent</artifactId>
     <version>0.0.1</version>
   </parent>
-  <artifactId>unsa1-bdm-parent</artifactId>
+  <artifactId>unsa2-bdm-parent</artifactId>
   <packaging>pom</packaging>
   <modules>
     <module>model</module>

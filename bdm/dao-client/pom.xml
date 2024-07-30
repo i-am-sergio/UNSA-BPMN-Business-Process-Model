@@ -4,14 +4,14 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.dexo</groupId>
-    <artifactId>unsa1-bdm-parent</artifactId>
+    <artifactId>unsa2-bdm-parent</artifactId>
     <version>0.0.1</version>
   </parent>
-  <artifactId>unsa1-bdm-dao-client</artifactId>
+  <artifactId>unsa2-bdm-dao-client</artifactId>
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>unsa1-bdm-model</artifactId>
+      <artifactId>unsa2-bdm-model</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>

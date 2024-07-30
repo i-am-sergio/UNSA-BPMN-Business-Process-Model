@@ -553,6 +553,24 @@
       <displayName>Member</displayName>
       <description></description>
     </role>
+    <role name="Responsable de Gesti&#xf3;n de Fondos">
+      <displayName>Responsable de Gesti&#xf3;n de Fondos</displayName>
+    </role>
+    <role name="Coordinador de Proyectos">
+      <displayName>Coordinador de Proyectos</displayName>
+    </role>
+    <role name="Gestor de Relaciones Externas">
+      <displayName>Gestor de Relaciones Externas</displayName>
+    </role>
+    <role name="Responsable de Planificaci&#xf3;n de I+D+I+E">
+      <displayName>Responsable de Planificaci&#xf3;n de I+D+I+E</displayName>
+    </role>
+    <role name="Analista de Informaci&#xf3;n">
+      <displayName>Analista de Informaci&#xf3;n</displayName>
+    </role>
+    <role name="Director del Vicerrectorado de Investigacion">
+      <displayName>Director del Vicerrectorado de Investigacion</displayName>
+    </role>
     <role name="Jefe de Oficina">
       <displayName>Jefe de Oficina</displayName>
     </role>
@@ -623,18 +641,18 @@
   <memberships>
     <membership>
       <userName>william.jobs</userName>
-      <roleName>Asistente Administrativo</roleName>
+      <roleName>Secretaria de Oficina</roleName>
       <groupName>acme</groupName>
     </membership>
     <membership>
       <userName>april.sanchez</userName>
-      <roleName>member</roleName>
+      <roleName>Coordinador de Proyectos</roleName>
       <groupName>hr</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
     <membership>
       <userName>helen.kelly</userName>
-      <roleName>Jefe de Oficina</roleName>
+      <roleName>Director del Vicerrectorado de Investigacion</roleName>
       <groupName>hr</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
@@ -670,7 +688,7 @@
     </membership>
     <membership>
       <userName>jan.fisher</userName>
-      <roleName>member</roleName>
+      <roleName>Jefe de Oficina</roleName>
       <groupName>it</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
@@ -682,7 +700,7 @@
     </membership>
     <membership>
       <userName>favio.riviera</userName>
-      <roleName>member</roleName>
+      <roleName>Responsable de Planificaci&#xf3;n de I+D+I+E</roleName>
       <groupName>marketing</groupName>
       <groupParentPath>/acme</groupParentPath>
     </membership>
@@ -700,7 +718,7 @@
     </membership>
     <membership>
       <userName>joseph.hovell</userName>
-      <roleName>member</roleName>
+      <roleName>Coordinador de Unidad de Calidad</roleName>
       <groupName>rd</groupName>
       <groupParentPath>/acme/production</groupParentPath>
     </membership>
@@ -718,7 +736,7 @@
     </membership>
     <membership>
       <userName>daniela.angelo</userName>
-      <roleName>member</roleName>
+      <roleName>Gestor de Relaciones Externas</roleName>
       <groupName>europe</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
@@ -736,13 +754,13 @@
     </membership>
     <membership>
       <userName>giovanna.almeida</userName>
-      <roleName>member</roleName>
+      <roleName>Analista de Informaci&#xf3;n</roleName>
       <groupName>latin_america</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
     <membership>
       <userName>anthony.nichols</userName>
-      <roleName>member</roleName>
+      <roleName>Responsable de Gesti&#xf3;n de Fondos</roleName>
       <groupName>north_america</groupName>
       <groupParentPath>/acme/sales</groupParentPath>
     </membership>
