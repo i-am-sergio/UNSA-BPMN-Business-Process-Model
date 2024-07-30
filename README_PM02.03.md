@@ -45,11 +45,24 @@
 | - Plan Anual de Internacionalización |
 
 ### Modelo de Datos
-
+<p align="center">
+  <img src="resources/pm-luciana/diagrama-modelos.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-luciana/modelos.png" alt="Performance Test" />
+</p>
 ### Variables
-
+<p align="center">
+  <img src="resources/pm-luciana/variables-proceso1.png" alt="Performance Test" />
+</p>
+<p align="center">
+  <img src="resources/pm-luciana/variables-proceso2.png" alt="Performance Test" />
+</p>
 ### Contratos
 
 ### Formularios GUI
+<p align="center">
+  <img src="resources/pm-luciana/formulario-aprobacion-firma.png" alt="Performance Test" />
+</p>
 
-### Mapeamiento de Actores y Roles
+
