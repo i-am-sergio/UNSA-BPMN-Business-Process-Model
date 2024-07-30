@@ -1,10 +1,10 @@
 {
-  "id" : "ElaborarRsuEtica",
-  "name" : "ElaborarRsuEtica",
+  "id" : "ModificarObjetivosEstrategicos",
+  "name" : "ModificarObjetivosEstrategicos",
   "type" : "form",
-  "uuid" : "bdc75b9e-fc37-405f-86eb-b4c6a02e7a18",
+  "uuid" : "0aca2d2d-c84b-4cea-939f-6119a325c3e7",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1719614998791,
+  "lastUpdate" : 1719614521035,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "bd6037bb-a2b1-4d0a-8896-ce254d0314c4",
+        "reference" : "1cc5b466-6c1b-4631-8aef-d774747887ba",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -42,7 +42,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "Verificar Cumplimiento de Requisitos"
+                  "value" : "Redactar Reglamento de  Admision"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -51,9 +51,13 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
                 }
               },
-              "reference" : "ca8d03a6-6a14-47e4-a57f-995950887550",
+              "reference" : "a21db71f-a8b2-4162-9dc8-6ad00afdadf6",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -101,353 +105,9 @@
                   "value" : 12
                 }
               },
-              "reference" : "800ce4d1-66b7-47b4-9059-1287fd9aacdd",
+              "reference" : "6be721af-7429-4bd6-9ca1-26707a8f2209",
               "hasValidationError" : false,
               "id" : "pbText",
-              "description" : ""
-            }
-          ]
-        ]
-      }
-    ],
-    [
-      {
-        "type" : "container",
-        "dimension" : {
-          "xs" : 12,
-          "sm" : 12,
-          "md" : 12,
-          "lg" : 12
-        },
-        "propertyValues" : {
-          "cssClasses" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "hidden" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "repeatedCollection" : {
-            "type" : "variable"
-          }
-        },
-        "reference" : "2a8baabd-977e-4284-a458-6c7a776f4677",
-        "hasValidationError" : false,
-        "id" : "pbContainer",
-        "rows" : [
-          [
-            {
-              "type" : "component",
-              "dimension" : {
-                "md" : 12,
-                "sm" : 12,
-                "xs" : 12,
-                "lg" : 12
-              },
-              "propertyValues" : {
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "level" : {
-                  "type" : "constant",
-                  "value" : "Level 4"
-                },
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "text" : {
-                  "type" : "interpolation",
-                  "value" : "Documentos Recibidos"
-                },
-                "alignment" : {
-                  "type" : "constant",
-                  "value" : "left"
-                },
-                "dimension" : {
-                  "type" : "constant",
-                  "value" : 12
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
-                }
-              },
-              "reference" : "2a441c7a-ad6c-4a31-bc30-28715c47d312",
-              "hasValidationError" : false,
-              "id" : "pbTitle",
-              "description" : ""
-            }
-          ],
-          [
-            {
-              "type" : "component",
-              "dimension" : {
-                "md" : 12,
-                "sm" : 12,
-                "xs" : 12,
-                "lg" : 12
-              },
-              "propertyValues" : {
-                "labelHidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "labelPosition" : {
-                  "type" : "constant",
-                  "value" : "top"
-                },
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "labelWidth" : {
-                  "type" : "constant",
-                  "value" : 1
-                },
-                "readOnly" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "label" : {
-                  "type" : "interpolation",
-                  "value" : "Diagnóstico Anual de Gestión de la RSU"
-                },
-                "placeholder" : {
-                  "type" : "constant"
-                },
-                "type" : {
-                  "type" : "constant",
-                  "value" : "text"
-                },
-                "dimension" : {
-                  "type" : "constant",
-                  "value" : 12
-                },
-                "value" : {
-                  "type" : "variable",
-                  "value" : "recibir_informacion.diagnostico"
-                },
-                "required" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "minLength" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "maxLength" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "debounce" : {
-                  "type" : "constant",
-                  "value" : 0
-                },
-                "min" : {
-                  "type" : "constant"
-                },
-                "max" : {
-                  "type" : "constant"
-                },
-                "step" : {
-                  "type" : "constant",
-                  "value" : 1
-                }
-              },
-              "reference" : "e4a9638f-abc2-4f19-b6b7-7748bc3042b3",
-              "hasValidationError" : false,
-              "id" : "pbInput",
-              "description" : ""
-            }
-          ],
-          [
-            {
-              "type" : "component",
-              "dimension" : {
-                "md" : 12,
-                "sm" : 12,
-                "xs" : 12,
-                "lg" : 12
-              },
-              "propertyValues" : {
-                "labelHidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "labelPosition" : {
-                  "type" : "constant",
-                  "value" : "top"
-                },
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "labelWidth" : {
-                  "type" : "constant",
-                  "value" : 1
-                },
-                "readOnly" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "label" : {
-                  "type" : "interpolation",
-                  "value" : "Reporte de Sostenibilidad Anual (informe Anual RSU)"
-                },
-                "placeholder" : {
-                  "type" : "constant"
-                },
-                "type" : {
-                  "type" : "constant",
-                  "value" : "text"
-                },
-                "dimension" : {
-                  "type" : "constant",
-                  "value" : 12
-                },
-                "value" : {
-                  "type" : "variable",
-                  "value" : "recibir_informacion.informe"
-                },
-                "required" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "minLength" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "maxLength" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "debounce" : {
-                  "type" : "constant",
-                  "value" : 0
-                },
-                "min" : {
-                  "type" : "constant"
-                },
-                "max" : {
-                  "type" : "constant"
-                },
-                "step" : {
-                  "type" : "constant",
-                  "value" : 1
-                }
-              },
-              "reference" : "ea2d6917-9fa2-45a0-8951-8cad97631263",
-              "hasValidationError" : false,
-              "id" : "pbInput",
-              "description" : ""
-            }
-          ],
-          [
-            {
-              "type" : "component",
-              "dimension" : {
-                "md" : 12,
-                "sm" : 12,
-                "xs" : 12,
-                "lg" : 12
-              },
-              "propertyValues" : {
-                "labelHidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "labelPosition" : {
-                  "type" : "constant",
-                  "value" : "top"
-                },
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "labelWidth" : {
-                  "type" : "constant",
-                  "value" : 1
-                },
-                "readOnly" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "label" : {
-                  "type" : "interpolation",
-                  "value" : "Plan Estratégico Institucional (PEI)"
-                },
-                "placeholder" : {
-                  "type" : "constant"
-                },
-                "type" : {
-                  "type" : "constant",
-                  "value" : "text"
-                },
-                "dimension" : {
-                  "type" : "constant",
-                  "value" : 12
-                },
-                "value" : {
-                  "type" : "variable",
-                  "value" : "recibir_informacion.pei"
-                },
-                "required" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "minLength" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "maxLength" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "debounce" : {
-                  "type" : "constant",
-                  "value" : 0
-                },
-                "min" : {
-                  "type" : "constant"
-                },
-                "max" : {
-                  "type" : "constant"
-                },
-                "step" : {
-                  "type" : "constant",
-                  "value" : 1
-                }
-              },
-              "reference" : "ea888ee9-2c43-4f86-a51e-d2867eb20e4d",
-              "hasValidationError" : false,
-              "id" : "pbInput",
               "description" : ""
             }
           ]
@@ -460,17 +120,8 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : {
-          "cssClasses" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "hidden" : {
-            "type" : "constant",
-            "value" : false
-          }
-        },
-        "reference" : "ec04fe5b-9400-47ee-af45-aaafd04ba09c",
+        "propertyValues" : { },
+        "reference" : "189fa70c-97c5-46b3-800f-0c8f8559c1a4",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -479,10 +130,51 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "6b080beb-927d-44db-8d30-fa62b780fcc6",
+          "reference" : "d05161b2-1805-46eb-9333-8d2f3177ae8c",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Definir_objetivos_estrategicos"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "101c90d4-d546-4821-90e7-bc8a920479ec",
+                "hasValidationError" : false,
+                "id" : "pbTitle",
+                "description" : ""
+              }
+            ],
             [
               {
                 "type" : "container",
@@ -509,7 +201,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "c06741e4-6263-450a-bd22-10ec62b0acd2",
+                "reference" : "93f81936-bd25-4e45-bb1e-fbba9b268813",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -549,7 +241,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Link a Plan Anual de RSU"
+                          "value" : "Reglamento de Admision"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -564,7 +256,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "elaborar_rsu.rsu"
+                          "value" : "definir_objetivos_estrategicos.objetivos_estrategicos"
                         },
                         "required" : {
                           "type" : "constant",
@@ -597,7 +289,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "58bfcfe9-d929-4dc6-b66f-bfd45012b461",
+                      "reference" : "7560faa2-cba1-4d7d-a271-2fde0b6e70c8",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -617,25 +309,30 @@
                           "type" : "constant",
                           "value" : false
                         },
-                        "minLength" : {
+                        "dateFormat" : {
+                          "type" : "constant",
+                          "value" : "MM/dd/yyyy"
+                        },
+                        "cssClasses" : {
                           "type" : "constant",
                           "value" : ""
                         },
-                        "maxLength" : {
+                        "labelWidth" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : 1
                         },
-                        "debounce" : {
+                        "readOnly" : {
                           "type" : "constant",
-                          "value" : 0
+                          "value" : false
                         },
-                        "min" : {
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Fecha"
+                        },
+                        "type" : {
                           "type" : "constant"
                         },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
+                        "required" : {
                           "type" : "constant",
                           "value" : false
                         },
@@ -665,16 +362,16 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "evaluar_fondos_disponibles.fecha_de_evaluacion"
+                          "value" : "definir_objetivos_estrategicos.fecha"
                         },
                         "allowHTML" : {
                           "type" : "constant",
                           "value" : false
                         }
                       },
-                      "reference" : "dee9605c-20a0-440a-be52-f0d28c994da2",
+                      "reference" : "c24a2c72-6632-4d02-b266-42174192283b",
                       "hasValidationError" : false,
-                      "id" : "pbInput",
+                      "id" : "pbDatePicker",
                       "description" : ""
                     }
                   ]
@@ -756,7 +453,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "a08720a3-b986-46ac-914c-607d3c0beaf3",
+                "reference" : "95747a5b-3b83-4816-b224-626ce059b9c0",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -808,7 +505,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "e4e7dd5d-f7f5-41d6-b370-b3761e07915d",
+                "reference" : "87997357-6c9d-43ce-a917-2d85e8b53e01",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -824,6 +521,13 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "definir_objetivos_estrategicos" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.definir_objetivos_estrategicos_ref.link}}"
       ],
       "exposed" : false
     },
@@ -845,17 +549,12 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.elaborar_rsu && $data.recibir_informacion ){",
+        "if( $data.definir_objetivos_estrategicos ){",
         "\treturn {",
-        "\t\t//map elaborar_rsu variable to expected task contract input",
-        "\t\telaborar_rsuInput: {",
-        "\t\t\trsu: $data.elaborar_rsu.rsu !== undefined ? $data.elaborar_rsu.rsu : null",
-        "\t\t},",
-        "\t\t//map recibir_informacion variable to expected task contract input",
-        "\t\trecibir_informacionInput: {",
-        "\t\t\tdiagnostico: $data.recibir_informacion.diagnostico !== undefined ? $data.recibir_informacion.diagnostico : null,",
-        "\t\t\tinforme: $data.recibir_informacion.informe !== undefined ? $data.recibir_informacion.informe : null,",
-        "\t\t\tpei: $data.recibir_informacion.pei !== undefined ? $data.recibir_informacion.pei : null",
+        "\t\t//map definir_objetivos_estrategicos variable to expected task contract input",
+        "\t\tdefinir_objetivos_estrategicosInput: {",
+        "\t\t\tobjetivos_estrategicos: $data.definir_objetivos_estrategicos.objetivos_estrategicos !== undefined ? $data.definir_objetivos_estrategicos.objetivos_estrategicos : null,",
+        "\t\t\tfecha: $data.definir_objetivos_estrategicos.fecha !== undefined ? $data.definir_objetivos_estrategicos.fecha : null",
         "\t\t}",
         "\t}",
         "}"
@@ -869,20 +568,6 @@
       ],
       "exposed" : false
     },
-    "elaborar_rsu" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.elaborar_rsu_ref.link}}"
-      ],
-      "exposed" : false
-    },
-    "recibir_informacion" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.recibir_informacion_ref.link}}"
-      ],
-      "exposed" : false
-    },
     "taskId" : {
       "type" : "urlparameter",
       "value" : [
@@ -893,16 +578,16 @@
   },
   "assets" : [
     {
-      "id" : "b57ff2b9-146d-438a-87fe-a0fe4d4ef3e1",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "d5ba9b10-879f-497a-bd1f-dc06a9fee8a0",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "3d09beae-ff94-4f1d-8bb4-58f202e24697",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "f9b9c165-8217-44e5-bfdf-cb4e349afbf9",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }

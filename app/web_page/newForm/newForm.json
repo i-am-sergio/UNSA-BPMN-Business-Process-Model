@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "824f3793-ea83-49fe-8f1c-bed9c10fc236",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1722320107306,
+  "lastUpdate" : 1719615050404,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -42,7 +42,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "{{ task.displayName }}"
+                  "value" : "Aprobacion de Vacantes Cubiertas"
                 },
                 "alignment" : {
                   "type" : "constant",

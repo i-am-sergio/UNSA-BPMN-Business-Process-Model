@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "aded2489-a983-4bc1-a2c8-c14c8be4dda8",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1718777230795,
+  "lastUpdate" : 1719615088226,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -116,7 +116,16 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
         "reference" : "f0d5dbf6-046e-46b4-9791-cf6a57c9d37b",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
@@ -130,47 +139,6 @@
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
-            [
-              {
-                "type" : "component",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "level" : {
-                    "type" : "constant",
-                    "value" : "Level 4"
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "Analizar_informacion"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "4b7ebec8-4680-46eb-85ec-8bfa7ad00ad6",
-                "hasValidationError" : false,
-                "id" : "pbTitle",
-                "description" : ""
-              }
-            ],
             [
               {
                 "type" : "container",

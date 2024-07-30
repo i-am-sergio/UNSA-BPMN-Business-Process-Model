@@ -563,9 +563,25 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
-    <user userName="asist3">
-      <firstName>Carlos</firstName>
-      <lastName>Mendoza</lastName>
+    <user userName="user0">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="user3">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="user4">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="user5">
       <personalData/>
       <professionalData/>
       <password encrypted="false">bpm</password>
@@ -819,8 +835,13 @@
       <groupName>acme</groupName>
     </membership>
     <membership>
-      <userName>asist3</userName>
-      <roleName>Asistente de Gesti&#xf3;n Institucional</roleName>
+      <userName>user4</userName>
+      <roleName>Secretaria</roleName>
+      <groupName>acme</groupName>
+    </membership>
+    <membership>
+      <userName>user5</userName>
+      <roleName>Representante del Comite de Planificacion</roleName>
       <groupName>acme</groupName>
     </membership>
   </memberships>
