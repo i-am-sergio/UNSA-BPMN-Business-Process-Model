@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "267d9f35-e0d2-410b-805f-507e5b43fde7",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1718778969636,
+  "lastUpdate" : 1719615192330,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -42,7 +42,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "{{ task.displayName }}"
+                  "value" : "Distribuir Documentos"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -51,6 +51,10 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
                 }
               },
               "reference" : "80ba22a2-ae54-467d-a119-3f0d990be786",
@@ -116,7 +120,16 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
         "reference" : "524386c9-476a-4d7f-8e88-7b26845120e6",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
@@ -130,47 +143,6 @@
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
-            [
-              {
-                "type" : "component",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "level" : {
-                    "type" : "constant",
-                    "value" : "Level 4"
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "Analizar_informacion"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "386cc1ef-9090-41ae-a2d1-da04847a1372",
-                "hasValidationError" : false,
-                "id" : "pbTitle",
-                "description" : ""
-              }
-            ],
             [
               {
                 "type" : "container",
@@ -237,7 +209,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Resultado_analisis"
+                          "value" : "Resultado_distribucion"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -257,6 +229,32 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "cda393ab-3568-4496-a73b-fbd2bdf1eb74",
@@ -333,6 +331,10 @@
                         "value" : {
                           "type" : "variable",
                           "value" : "analizar_informacion.fecha"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
                       "reference" : "56abda63-99d7-4f5e-9902-aa99d369c13a",

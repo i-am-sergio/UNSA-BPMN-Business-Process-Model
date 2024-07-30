@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "0aca2d2d-c84b-4cea-939f-6119a325c3e7",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1719257275460,
+  "lastUpdate" : 1719614521035,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -42,7 +42,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "Modificar Objetivos Estrategicos"
+                  "value" : "Redactar Reglamento de  Admision"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -241,7 +241,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Objetivos_estrategicos"
+                          "value" : "Reglamento de Admision"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -261,6 +261,32 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "7560faa2-cba1-4d7d-a271-2fde0b6e70c8",
@@ -337,6 +363,10 @@
                         "value" : {
                           "type" : "variable",
                           "value" : "definir_objetivos_estrategicos.fecha"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
                       "reference" : "c24a2c72-6632-4d02-b266-42174192283b",

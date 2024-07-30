@@ -32,7 +32,11 @@ Este proceso se encarga de identificar, evaluar y gestionar los riesgos a los qu
 ### **Mapa de Procesos**
 Diagrama que representa de manera visual los principales procesos y subprocesos de la universidad, mostrando sus interrelaciones y flujos de información, así como los responsables de su ejecución.
 
-[Mapa de Procesos](https://fde.unsa.edu.pe/wp-content/uploads/2023/09/mapa-de-procesos-2.jpg)
+<p align="center">
+  <img src="https://fde.unsa.edu.pe/wp-content/uploads/2023/09/mapa-de-procesos-2.jpg" alt="Mapa de Procesos" width="800px" />
+</p>
+
+
 
 <!-- 
 ## **Secciones Adicionales para el Modelo UNSA-BPMN-Business-Process-Model**
